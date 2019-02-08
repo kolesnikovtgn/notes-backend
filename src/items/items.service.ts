@@ -5,6 +5,7 @@ import { Item } from './item.interface';
 export class ItemsService {
   private readonly items: Item[] = [];
 
+
   findAll(): Item[] {
     return this.items;
   }
